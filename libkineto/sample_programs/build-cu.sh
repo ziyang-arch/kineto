@@ -5,4 +5,4 @@
 # This source code is licensed under the BSD-style license found in the
 # LICENSE file in the root directory of this source tree.
 
-nvcc -c kineto_playground.cu -o kplay_cu.o
+nvcc -std=c++11 -c kineto_playground.cu -o kplay_cu.o

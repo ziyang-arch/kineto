@@ -29,7 +29,7 @@ void warmup(void) {
 }
 
 float *hA, *dA, *hOut;
-int num = 50'000;
+int num = 50000;
 
 void basicMemcpyToDevice(void) {
   size_t size = num * sizeof(float);
